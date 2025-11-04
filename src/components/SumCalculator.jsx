@@ -21,9 +21,18 @@ const SumCalculator = () => {
 
     const num1 = parseFloat(number1);
     const num2 = parseFloat(number2);
+    const result = num1 + num2;
 
-  setError("");
-  setSum((num1 + num2).toFixed(9));
+    setError("");
+    // Nếu là số nguyên thì không hiển thị phần thập phân
+    setSum(Number.isInteger(result) ? result.toString() : result.toFixed(11).replace(/\.?0+$/, ''));
+  };
+
+  const handleReset = () => {
+    setNumber1("");
+    setNumber2("");
+    setSum(null);
+    setError("");
   };
 
   return (
@@ -50,7 +59,14 @@ const SumCalculator = () => {
         />
       </label>
 
-      <button onClick={handleCalculate}>Calculate Sum</button>
+      <div className="button-group">
+        <button className="btn-calculate" onClick={handleCalculate}>
+          Calculate Sum
+        </button>
+        <button className="btn-reset" onClick={handleReset}>
+          Reset
+        </button>
+      </div>
 
       {error && <p className="error">{error}</p>}
       {sum !== null && !error && <p className="result">Result: {sum}</p>}
