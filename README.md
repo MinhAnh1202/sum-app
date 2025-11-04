@@ -11,7 +11,7 @@
 
 *A modern, elegant React web application for calculating the sum of two numbers with advanced input validation and beautiful UI design.*
 
-[🚀 Demo](#demo) • [📋 Features](#features) • [⚡ Quick Start](#quick-start) • [📖 Documentation](#documentation)
+[🚀 Live Demo](https://minhanh1202.github.io/sum-app/) • [📋 Features](#features) • [⚡ Quick Start](#quick-start) • [📖 Documentation](#documentation)
 
 </div>
 
@@ -42,7 +42,13 @@
 
 ---
 
-## 🖼️ Screenshots
+## � Live Demo
+
+**➡️ [Try the app now!](https://minhanh1202.github.io/sum-app/)**
+
+The Sum Calculator is live and ready to use. Click the link above to start calculating!
+
+## �🖼️ Screenshots
 
 <div align="center">
 
@@ -168,6 +174,37 @@ sum-app/
 - **Backdrop Filter** - Glass-morphism effects
 - **CSS Grid & Flexbox** - Responsive layouts
 - **CSS Animations** - Smooth user interactions
+
+---
+
+## 🚀 Deployment
+
+This project is automatically deployed to GitHub Pages. Here's how to deploy your own version:
+
+### 📦 Deploy to GitHub Pages
+
+1. **Fork this repository** or create your own
+2. **Install dependencies**: `npm install`
+3. **Update homepage** in `package.json`:
+   ```json
+   "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME"
+   ```
+4. **Deploy**: `npm run deploy`
+5. **Enable GitHub Pages** in repository settings (should be automatic)
+
+### 🔄 Automatic Deployment Workflow
+
+The project includes these npm scripts:
+- `npm run predeploy` - Builds the production version
+- `npm run deploy` - Deploys to GitHub Pages using gh-pages
+- `npm run build` - Creates production build locally
+
+### 🌐 Other Deployment Options
+
+- **Vercel**: Connect your GitHub repo to [Vercel](https://vercel.com)
+- **Netlify**: Drag and drop the `build` folder to [Netlify](https://netlify.com)
+- **Heroku**: Use buildpack for React deployment
+- **Firebase Hosting**: Use Firebase CLI tools
 
 ---
 
