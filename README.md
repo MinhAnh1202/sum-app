@@ -48,22 +48,6 @@
 
 The Sum Calculator is live and ready to use. Click the link above to start calculating!
 
-## �🖼️ Screenshots
-
-<div align="center">
-
-### 🏠 Main Interface
-![Main Interface](https://via.placeholder.com/600x400/667eea/ffffff?text=Beautiful+Calculator+Interface)
-
-### ✅ Successful Calculation
-![Calculation Result](https://via.placeholder.com/600x400/38a169/ffffff?text=Result%3A+5.75)
-
-### ❌ Input Validation
-![Error State](https://via.placeholder.com/600x400/e53e3e/ffffff?text=Invalid+Input+Error)
-
-</div>
-
----
 
 ## ⚡ Quick Start
 
@@ -230,22 +214,6 @@ Contributions are welcome! Here's how you can help:
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-```
-MIT License
-
-Copyright (c) 2025 MinhAnh1202
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
 ---
 
 ## 👨‍💻 Author
@@ -253,18 +221,6 @@ copies or substantial portions of the Software.
 **MinhAnh1202**
 - GitHub: [@MinhAnh1202](https://github.com/MinhAnh1202)
 - Project Link: [Sum Calculator App](https://github.com/MinhAnh1202/sum-app)
-
----
-
-## 🎯 Future Enhancements
-
-- [ ] 🔢 **Multiple Operations**: Add subtraction, multiplication, division
-- [ ] 📚 **Calculation History**: Store and display previous calculations
-- [ ] 🎨 **Theme Switcher**: Light/dark mode toggle
-- [ ] 🔊 **Sound Effects**: Audio feedback for button clicks
-- [ ] 📱 **PWA Features**: Make it installable on mobile devices
-- [ ] 🌍 **Internationalization**: Multi-language support
-- [ ] ⌨️ **Keyboard Shortcuts**: Hot keys for quick operations
 
 ---
 
